@@ -36,7 +36,7 @@
     "index.d.ts"
   ],
   "scripts": {
-    "build": "node ./build.js",
+    "build": "node ./build.cjs",
     "pretest": "npm run build",
     "test": "npm run test:node && npm run test:esm && npm run test:webpack",
     "test:node": "ts-mocha -p test/tsconfig.json 'test/**/*.spec.ts'",
