@@ -5,6 +5,7 @@
   "types": "./index.d.ts",
   "main": "./index.node.js",
   "browser": "./index.browser.js",
+  "type": "module",
   "exports": {
     ".": {
       "types": "./index.d.ts",
